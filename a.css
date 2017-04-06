@@ -1,0 +1,71 @@
+* {
+      margin: 0 auto;
+      padding: 0;
+    }
+    
+    a {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      padding: 10px 8px;
+      margin: 0 2% 10 2%;
+      width: 75%;
+      background-color: #ec5656;
+      color: #fff;
+    }
+    
+    a:hover {
+      background-color: red;
+    }
+    
+    .remap {
+      background-color: #dd9f0b;
+    }
+    
+    .remap:hover {
+      background-color: yellow;
+    }
+    
+    .panel {
+      position: fixed;
+      top: 40px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      border-radius: 8px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      cursor: default;
+    }
+    
+    button {
+      border: none;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 5px;
+      font-size: 90%;
+      cursor: pointer;
+      padding: 10px 8px;
+      margin: 0 2% 10 2%;
+      width: 90%;
+    }
+    
+    button:hover {
+      background: rgba(255, 255, 255, 0.9);
+    }
+    
+    .start {
+      background-color: #A7C942;
+      color: #fff;
+    }
+    
+    .start:hover {
+      background-color: green;
+    }
+    
+    .right_panel {
+      width: 100px;
+      right: 80px;
+    }
